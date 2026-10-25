@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-plane-departure"></i>
+            <span>TravelBloom</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="travel_recommendation.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+
+        <div class="search-area">
+            <input type="text" id="searchInput" placeholder="Search for beach, temple or country">
+            <button type="button" id="searchBtn">Search</button>
+            <button type="button" id="resetBtn">Reset</button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Explore the World with TravelBloom</h1>
+            <p>
+                The Travel Recommendation App helps users explore popular 
+                travel destinations through an interactive and user friendly interface. 
+                It allows users to search for beaches, temples, countries, 
+                or specific country names lo view related cities along with images 
+                and descriptions. The app dynamically fetches data from a 
+                structured JSON file to display relevant results. It provides 
+                a simple and efficient way to discover and plan travel destinations.
+            </p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="results" class="results"></section>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
